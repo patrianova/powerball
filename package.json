@@ -1,0 +1,38 @@
+{
+  "name": "powerball-ticket-checker",
+  "version": "1.0.0",
+  "description": "AI-powered lottery ticket verification system using Claude Vision to read receipts and check for winning combinations",
+  "main": "checkWinnings.js",
+  "scripts": {
+    "start": "node checkWinnings.js",
+    "check": "node checkWinnings.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lottery",
+    "powerball",
+    "ai",
+    "vision",
+    "claude",
+    "ticket-checker",
+    "ocr"
+  ],
+  "author": "Rodrigo Patrianova & Claude AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/lottery-ticket-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/lottery-ticket-checker/issues"
+  },
+  "homepage": "https://github.com/yourusername/lottery-ticket-checker#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.61.0",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2"
+  }
+}
